@@ -1,6 +1,6 @@
 # Events Registry using DBT and RudderStack
 
-This repository contains a sample DBT project for Rudder stack. It can be applied on Rudder data residing in BigQuery. 
+This repository contains a sample DBT project for Rudder stack. It can be applied on the RudderStack data residing in Google BigQuery. 
 
 ## Overview
 
