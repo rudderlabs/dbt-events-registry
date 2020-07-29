@@ -1,6 +1,6 @@
 version: 2
 sources:
-    - name: RUDDERWEBAPP
+    - name: <schema>
       tables:
         - name: tracks
           columns:
