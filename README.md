@@ -1,6 +1,6 @@
 # Events Registry using DBT and RudderStack
 
-This repository contains a sample DBT project for Rudder stack. It can be applied on the RudderStack data residing in Google BigQuery. 
+This repository contains a sample DBT project for RudderStack. It can be applied on the RudderStack data residing in Google BigQuery. 
 
 ## Overview
 
@@ -25,3 +25,13 @@ following the directions provided [**here**](https://docs.getdbt.com/docs/runnin
 There is only one model to be built - `dbt_event_registry`
 
 **Important**: Please remember to change `schema` in `tracks.yml`, `dbt_event_registry.sql` and `dbt_event_registry_last_N_days` to your database schema.
+
+# What is RudderStack?
+
+[RudderStack](https://rudderstack.com/) is a **customer data pipeline** tool for collecting, routing and processing data from your websites, apps, cloud tools, and data warehouse.
+
+More information on RudderStack can be found [here](https://github.com/rudderlabs/rudder-server).
+
+## Contact us
+
+If you come across any issues while configuring or using this project, please feel free to start a conversation on our [Slack](https://resources.rudderstack.com/join-rudderstack-slack) channel. We will be happy to help you.
