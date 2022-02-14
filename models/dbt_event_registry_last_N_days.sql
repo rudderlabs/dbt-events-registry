@@ -8,7 +8,7 @@ select
     event_count/window_width as event_daily_average,
     CURRENT_TIMESTAMP as record_created_at
 from
-    {{ source("<schema>","tracks")}}
+    {{ source("schema","tracks")}}
 where
     datediff(day,cast(received_at as timestamp),CURRENT_TIMESTAMP) > window_width
 group by
