@@ -9,6 +9,6 @@ select
     event_count/(datediff(day,first_triggered,CURRENT_TIMESTAMP)) as event_daily_average,
     CURRENT_TIMESTAMP as record_created_at
 from
-    {{ source("schema","tracks")}}
+    {{ source("<schema>","tracks")}}
 group by
     event
